@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone !!!</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/74d7092323.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav id="navigation_bar"><img src="download.png" alt="spotify" class="logo">
+        <ul class="ul">
+            <li  id="spotify" class="nav">Spotify</li>
+        <li class="nav">Home </li>
+        <li class="nav">About</li></ul>
+        
+    </nav>
+    <div class="container">
+    <div class="song_list">
+        <h1 style="margin: 5px;">Best of NCS- No Copyright Sounds</h1>
+        <div class="song_items">
+            <div class="song_item">
+                <img class="img" src="covers/1.jpg" alt="song1" srcset="">
+                <span class="song_name">Let me love you</span>
+                <span  class="time_span">5:30 </span>
+                <span><i id="1" class="fa-duotone fa-solid fa-2x fa-play play_button play"></i></span>
+            </div>
+            <div class="song_item">
+                <img class="img" src="covers/2.jpg" alt="song1" srcset="">
+                <span class="song_name">My baby</span>
+                <span  class="time_span">4:30 </span>
+                <span><i id="2" class="fa-duotone fa-solid fa-2x fa-play play_button play"></i></span>
+            </div>
+            <div class="song_item">
+                <img class="img" src="covers/3.jpg" alt="song1" srcset="">
+                <span class="song_name">I Love your Voice</span>
+                <span  class="time_span">3:40 </span>
+                <span><i id="3" class="fa-duotone fa-solid fa-2x fa-play play_button play"></i></span>
+            </div>
+            <div class="song_item">
+                <img class="img" src="covers/4.jpg" alt="song1" srcset="">
+                <span class="song_name">Infinity</span>
+                <span  class="time_span">5:14 </span>
+                <span><i id="4" class="fa-duotone fa-solid fa-2x fa-play play_button play"></i></span>
+            </div>
+            <div class="song_item">
+                <img class="img" src="covers/5.jpg" alt="song1" srcset="">
+                <span class="song_name">Ride It </span>
+                <span  class="time_span">2:30 </span>
+                <span><i id="5" class="fa-duotone fa-solid fa-2x fa-play play_button play"></i></span>
+            </div>
+            <div class="song_item">
+                <img class="img" src="covers/6.jpg" alt="song1" srcset="">
+                <span class="song_name">Dynamite</span>
+                <span  class="time_span">3:46 </span>
+                <span><i id="6" class="fa-duotone fa-solid fa-2x fa-play play_button play"></i></span>
+            </div>
+            <div class="song_item">
+                <img class="img" src="covers/7.jpg" alt="song1" srcset="">
+                <span class="song_name">Dusk till tawn</span>
+                <span  class="time_span">4:13 </span>
+                <span><i id="7" class="fa-duotone fa-solid fa-2x fa-play play_button play"></i></span>
+            </div>
+            <div class="song_item">
+                <img class="img" src="covers/8.jpg" alt="song1" srcset="">
+                <span class="song_name">Haibibi</span>
+                <span  class="time_span">5:30 </span>
+                <span><i id="8" class="fa-duotone fa-solid fa-2x fa-play play_button play"></i></span>
+            </div>
+            
+        </div>
+    </div></div>
+    <div class="bottom">
+        <input type="range" id="time" name="time" min="0" max="100">
+        <div class="icons">
+            <i id="backward" class="fa-solid fa-3x fa-backward-step  backward"></i>
+            <i id="play" class="fa-duotone fa-solid fa-3x fa-play play"></i>
+            <i id="forward" class="fa-sharp fa-3x fa-solid fa-forward-step forward"></i>
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" width="42px" alt="" id="gif"> <span id="masterSongName">Let me love you</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,111 @@
+body{
+    background-color: wheat;
+    margin: 0;
+    min-height: 100vh;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.ul {
+    list-style-type: none;
+    justify-content: space-between;
+    display: flex;
+}
+.nav {
+    margin: 12px 12px;
+    height: 45px;
+    padding: 10px;
+}
+#spotify {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+#navigation_bar {
+    background-color: black;
+    color: white;
+   display: flex;
+}
+.logo {
+    height: 40px;
+}
+
+.bottom {
+    position: sticky;
+    bottom: 0;
+    height: 110px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+.icons{
+    justify-content: center;
+    display: flex;
+    
+}
+.backward {
+    margin: 10px;
+    padding: 4px;
+}
+.play {
+    margin: 10px;
+    padding: 4px;
+}
+.forward {
+    margin: 10px;
+    padding: 4px;
+}
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    font-family: 'Varela Round', sans-serif;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+.song_item {
+    margin: 12px;
+    padding: 2px;
+    background-color:white;
+    width: 40%;
+    color: black;
+    border-radius: 27px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.time_span {
+    font-size: 25px;
+}
+.song_name {
+    font-size: 25px;
+}
+.img, .song_name, .time_span, .play_button {
+   margin: 10px 10px;
+}
+
+.song_item img{
+    width: 40px;
+    border-radius: 25px;
+    }
+.container {
+    margin: 35px;
+    padding: 12px;
+    background-color: black;
+    background-image: url("bg.jpg");
+    color: white;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    place-items: center;
+    width: 90%;
+}
+#time {
+    width: 80%;
+}
